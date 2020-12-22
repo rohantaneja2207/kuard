@@ -2,9 +2,6 @@
 *.o
 *.a
 *.so
-* text=auto
-
-*.sh text eol=lf 
 # Folders
 _obj
 _test
@@ -31,3 +28,7 @@ _testmain.go
 /.*-container
 /.*-dockerfile
 /.*-image
+
+* text=auto
+
+*.sh text eol=lf 
